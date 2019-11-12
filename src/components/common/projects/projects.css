@@ -1,0 +1,10 @@
+.project-box{
+    display:flex;
+
+}
+
+.project-item{
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,15 @@
+.user-portrait{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin: 70px;
+    border-style: solid;
+    border-color: rgb(28, 176, 209);
+    border-width: 5px;
+}
+
+@media all and (max-width: 500px){
+    .user-portrait {
+        margin: 20px;
+    }
+}
