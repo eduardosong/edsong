@@ -5,7 +5,7 @@ class Footer extends Component {
     render () {
         return (
             <React.Fragment>
-                <h1>Footer</h1>
+                <h4>Copyright © Eduardo Song 2019</h4>
             </React.Fragment>
         )
     }

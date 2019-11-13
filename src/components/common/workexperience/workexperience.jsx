@@ -18,18 +18,18 @@ class WorkExperience extends Component {
         return (
             <React.Fragment>
                 <div className='animated fadeIn delay-075s content-item work-experience'>
-                    <span className='content-title'>Work Experience</span>
+                    <p className='content-title'>Work Experience</p>
                     <div className='work-nav'>
                         {this.state.currJob==='nextround'? (
                             <button className='work-btn selected-btn' value='nextround' onClick={this.updateDispJob}>NextRound</button>
                         ):(
-                            <button className='work-btn ' value='nextround' onClick={this.updateDispJob} autofocus='true'>NextRound</button>
+                            <button className='work-btn ' value='nextround' onClick={this.updateDispJob} >NextRound</button>
                         )}
 
                         {this.state.currJob==='scones'? (
-                            <button className='work-btn selected-btn' value='scones' onClick={this.updateDispJob} autofocus='true'>Scones</button>
+                            <button className='work-btn selected-btn' value='scones' onClick={this.updateDispJob} >Scones</button>
                         ):(
-                            <button className='work-btn ' value='scones' onClick={this.updateDispJob} autofocus='true'>Scones</button>
+                            <button className='work-btn ' value='scones' onClick={this.updateDispJob} >Scones</button>
                         )}
                     </div>
                     {this.state.currJob==='nextround'? (
