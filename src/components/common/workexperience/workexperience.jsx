@@ -21,7 +21,7 @@ class WorkExperience extends Component {
                     <span className='content-title'>Work Experience</span>
                     <div className='work-nav'>
                         {this.state.currJob==='nextround'? (
-                            <button className='work-btn selected-btn' value='nextround' onClick={this.updateDispJob} autofocus='true'>NextRound</button>
+                            <button className='work-btn selected-btn' value='nextround' onClick={this.updateDispJob}>NextRound</button>
                         ):(
                             <button className='work-btn ' value='nextround' onClick={this.updateDispJob} autofocus='true'>NextRound</button>
                         )}
