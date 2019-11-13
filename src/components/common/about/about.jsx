@@ -9,6 +9,7 @@ class About extends Component {
                 <div className='animated fadeIn delay-075s content-item about'>
                     <img className='portrait' src='portrait.jpg' alt='Eduardo Song portrait'/>
                     <div className="ed-info">
+                        
                         <p className='info-text'>I am a Full Stack Developer based in Orange County, California, well versed in both front and back end technologies. I can build a web app from the ground up, creating a structured database paired with a responsive user interface that seamlessly retrieves and displays stored information. </p>
                         <p className='info-text'>Here's a short list of the technologies I've been using in my work and projects:</p>
                         <ul className='skills-list'>
