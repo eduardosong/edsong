@@ -25,17 +25,17 @@ class Projects extends Component {
                             </div>
                             <p className='project-text'>The very website you're on. Designed to be simple and sleek while being easy on the eyes. 
                             </p>
-                            <ul className='skills-list'>
-                                <li className='skills-wrap'>
-                                    <img className='skills-icon' src='https://bit.ly/2NWyPFj' alt='logo of reactjs'/>
+                            <ul className='tech-list'>
+                                <li className='tech-wrap'>
+                                    <img className='tech-icon' src='https://bit.ly/2NWyPFj' alt='logo of reactjs'/>
                                     <span>React.js</span>
                                 </li>
-                                <li className='skills-wrap'>
-                                    <img className='skills-icon' src='https://bit.ly/2CrLZVu' alt='logo of html5'/>
+                                <li className='tech-wrap'>
+                                    <img className='tech-icon' src='https://bit.ly/2CrLZVu' alt='logo of html5'/>
                                     <span>HTML5</span>
                                 </li>
-                                <li className='skills-wrap'>
-                                    <img className='skills-icon' src='https://bit.ly/36OM2Zx' alt='logo of css3'/>
+                                <li className='tech-wrap'>
+                                    <img className='tech-icon' src='https://bit.ly/36OM2Zx' alt='logo of css3'/>
                                     <span>CSS3</span>
                                 </li>
 

@@ -5,18 +5,19 @@
     font-size: 4em;
     padding-top: 5%;
     padding-bottom: 5%; 
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
   }
   
   .title{
     padding-top: 0.09em;
     padding-bottom: 0.09em;
-    font-weight: 600;
+    /* font-weight: 600; */
   }
   
   .name{
     font-size: 1.3em;
+    /* font-weight: 700; */
     color: rgb(252, 153, 222);
     /* color: rgb(116, 219, 241); */
   
@@ -26,7 +27,7 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    font-size: 1.5em;
+    font-size: 1.2em;
     max-width: 1080px;
   }
   
@@ -43,10 +44,16 @@
   
   .nav-item{
     padding: 1em;
-    display: inline-flex;
-    
+    display: inline-flex; 
   }
-  
+
+  .resume-btn{
+    outline:none;
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+  }
+
   .link {
     text-decoration: none;
     color: rgb(174, 225, 236);

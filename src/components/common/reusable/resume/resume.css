@@ -1,0 +1,43 @@
+.modal{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    z-index:99999;
+
+    height: 100%;
+    background: rgba(0,0,0,0.6)
+}
+
+.display{
+    visibility: visible;
+    opacity:1;
+}
+
+.display-none{
+    visibility: hidden;
+    opacity: 0;
+}
+
+.modal-main{
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    background: white;
+    width:90%;
+    height: 90%;
+    top: 50%;
+    left: 50%;
+    z-index:99999;
+    transform: translate(-50%, -50%);
+
+}
+
+.resume{
+    height: 100%;
+    width: 100%;
+}
+
+.resume-options{
+    padding: 20px;
+}

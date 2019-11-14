@@ -1,12 +1,14 @@
 .project-box{
+    width: 100%;
     display:flex;
-
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .project-item{
     background-color:white;
-    max-width: 500px;
-    margin: 10px;
+    flex: 1;
+    margin: 10px 10px 10px 10px;
     font-size: 1.3em;
     border-radius: 5px;
     padding: 20px;
@@ -17,13 +19,9 @@
 }
 
 .project-img{
-    /* border-color: rgb(111, 189, 199);
-    border-width: 5px;
-    border-style: solid; */
     min-height: 240px;
     min-width: 100%;
     background: url(edsongweb.jpg);
-    /* background-size: 500px; */
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
