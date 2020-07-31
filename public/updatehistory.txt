@@ -1,0 +1,16 @@
+1.1.1
+- Removed 'Scones' from Work History
+- Projects
+    - Added Mitsis to Projects
+    - Added ProjectObject component to allow quick future additions of Projects. 
+    - Added ability to add logos to ProjectObject through props
+- Logos
+    - Created functional component Logos to easily insert logos for projects through 'LogoList' and 'Logos' components
+    - Fixed .NET logo on the About section
+    - Downloaded Icons to cut reliance on servers hosting the images
+- Work Experience
+    - Updated bullet points on Next Round
+-Header
+    - View Resume/other buttons highlight on hover
+    - Resume updated
+    - Changed Projects 'Github' and 'Live' to logos that highlight on hover

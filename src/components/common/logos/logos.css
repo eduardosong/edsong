@@ -1,0 +1,17 @@
+.tech-icon {
+  padding: 0 2px;
+  height: 25px;
+  width: 25px;
+}
+
+.tech-wrap {
+  color: rgb(0, 119, 146);
+  background-color: rgb(216, 246, 253);
+  border-style: solid;
+  border-color: rgb(82, 223, 255);
+  border-width: 1.5px;
+  border-radius: 5px;
+  padding: 5px;
+  display: flex;
+  margin: 2.5px;
+}

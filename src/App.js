@@ -1,10 +1,10 @@
-import React from 'react';
-import './App.css';
-import Header from './components/common/header/header.jsx'
-import About from './components/common/about/about.jsx'
-import WorkExperience from './components/common/workexperience/workexperience.jsx'
-import Projects from './components/common/projects/projects.jsx'
-import Footer from './components/common/footer/footer.jsx'
+import React from "react";
+import "./App.css";
+import Header from "./components/common/header/header.jsx";
+import About from "./components/common/about/about.jsx";
+import WorkExperience from "./components/common/workexperience/workexperience.jsx";
+import Projects from "./components/common/projects/projects.jsx";
+import Footer from "./components/common/footer/footer.jsx";
 
 function App() {
   return (
@@ -23,7 +23,6 @@ function App() {
         </div>
       </div>
 
-
       {/* <div className="wrapper">
         <div className='hero'>
           <Header/>
@@ -32,7 +31,6 @@ function App() {
           <About />
         </div>
       </div> */}
-      
     </React.Fragment>
   );
 }
